@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKING MANAGEMENT-AIRLINE SERVICES</title>
+    <link rel="icon" href="c1.jpg" />
+    <link rel="stylesheet" href="booking_management.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+
+<body ng-app="">
+    <div class="col-md-6">
+        <table class="t1">
+            <tr class="as">
+                <div class="navbar1">
+                    &nbsp;&nbsp;
+                    <h2 class="d2">AIR INDIA SERVICE
+                        <a href="home.html"> <i class="fas fa-home" style="font-size: 29px;cursor:pointer;color:blue; font-size:30px"></i></a>
+
+
+                    </h2>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <div class="menu">
+                        <button class="mn">Booking <i class="fas fa-bookmark" style="color:blue"></i></button>
+
+                        <div class="dropdown">
+                            <a href="">GRADE-A/B Prior-Booking </a>
+                            <a href="">GRADE-A/B Post-Booking</a>
+                            <a href="">Student Booking</a>
+                            <a href="">Senior Booking </a>
+                            <a href="">ARMY special Booking </a>
+
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <button class="mn">Add-on <i class="fas fa-cart-plus" style="color:blue"></i></button>
+                        <div class="dropdown">
+                            <a href="">Hot Meals</a>
+                            <a href="">Priority Check-in</a>
+                            <a href="">Travel Insurance</a>
+                            <a href="">Student Discount</a>
+                            <a href="">Friends and Family</a>
+                            <a href="">Zero Cancellation</a>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <button class="mn"> About us <i class="fas fa-question" style="color:blue"></i></button>
+                        <div class="dropdown">
+                            <a href="">About our FACILITIES</a>
+                            <a href="">About our STAFF</a>
+                            <a href="">About our SERVICES</a>
+
+                        </div>
+                    </div>&nbsp;&nbsp;
+                    <div class="menu">
+                        <button class="mn">Contact us <i class="fas fa-phone-square" style="color:blue"></i></button>
+                        <div class="dropdown">
+                            <a href="www.whatsapp.com">Contact by-WHATSAPP <i class="fas fa-users" style="color:green"></i></a>
+                            <a href="www.instagram.com">Contact by-INSTAGRAM <i class="fas fa-users" style="color:green"></i></a>
+                            <a href="https://www.facebook.com/">Contact by-FACEBOOK <i class="fas fa-users" style="color:green"></i></a>
+                        </div>
+                    </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <div class="menu">
+                        <button class="mn"> Audience<i class="fas fa-user" style="color:blue"></i></button>
+                        <div class="dropdown">
+                            <a href="">Our happy customers</a>
+                            <a href="">Our throughtout customers</a>
+                            <a href="">our winner audience</a>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <button class="nm"><a href="login_signup.html" style="text-decoration: none; color:green; "><b>LOGIN/SIGNUP<i class="fas fa-user-plus"></i></b></a></button>
+                        <div class="dropdown">
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </tr>
+            <tr class="zx">
+                <div class="navbar2">
+                    <button class="lj"><a href="">Flights <i class="fas fa-plane" style="color:aliceblue"></i></a></button>
+                    <button class="lj"><a href="">Hotels <i class="fas fa-hotel" style="color:goldenrod"></i></a></button>
+                    <button class="lj"><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019">COVID-19 <i class="fas fa-exclamation-triangle" style="color:red"></i></a></button>
+
+
+                </div>
+            </tr>
+            <tr class="qw">
+                <center>
+                    <div class="op">
+                        <img src="pay1.jpg" name="slide" width="500px" height="500px" />
+                    </div>
+                </center>
+
+                <script>
+                    image1 = "airplane1.jpg";
+                    image2 = "pay1.jpg";
+                    image3 = "c1.jpg";
+                    image4 = "airplane5.jpg";
+                    image5 = "pay2.jpg";
+                    image6 = "c2.jpg";
+                    image7 = "airplane3.jpg";
+                    image8 = "pay3.jpg";
+                    image9 = "airplane4.jpg";
+                    image10 = "airplane5.jpg";
+                    image11 = "pay4.jpg";
+                    image12 = "airplane6.jpg";
+
+
+
+                    var i = 1;
+
+                    function slideshow() {
+                        document.images.slide.src = eval("image" + i);
+                        if (i < 12) i++;
+                        else i = 1;
+                        setTimeout("slideshow()", 2000);
+                    }
+                    slideshow();
+                </script>
+                <div class="row">
+
+                    <div class="side">
+                        <div id="rollover" style="font-size: 21px;">AIRLINE FACILITIES</div>
+                        <div id="dashboard">
+                            <form name="my1" id="gd" onsubmit="return(jsvalidation1())">
+
+
+                                <div class="om">
+                                    <a onmouseover=document.bgColor='palegreen' onmouseout=document.bgColor='palegreen'><i class="fas fa-square" style="color:palegreen"></i></a>&nbsp; &nbsp;
+                                    <a onmouseover=document.bgColor='black' onmouseout=document.bgColor=':yellow'><i class="fas fa-square" style="color:black"></i></a>&nbsp; &nbsp;
+                                    <a onmouseover=document.bgColor='blueviolet' onmouseout=document.bgColor='blueviolet'><i class="fas fa-square" style="color: blueviolet;"></i></a>&nbsp; &nbsp;
+                                    <a onmouseover=document.bgColor='crimson' onmouseout=document.bgColor='crimson'><i class="fas fa-square" style="color: crimson;"></i></a>&nbsp; &nbsp;
+                                    <a onmouseover=document.bgColor='cyan' onmouseout=document.bgColor='cyan'><i class="fas fa-square" style="color: cyan;"></i></a>&nbsp; &nbsp;
+                                    <a onmouseover=document.bgColor='white' onmouseout=document.bgColor='white'><i class="fas fa-window-close" style="color:white"></i></a>&nbsp; &nbsp;
+                                </div>
+                                <center>
+                                    <div id="ru">
+                                        <div class="ty"> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; BOOKING TYPE <i class="fas fa-bookmark" style="color:blue; font-size:14px;"></i></div>
+
+
+                                        &nbsp; <input name="HOTELTYPE" type="radio" required/> PREBOOKING &nbsp;&nbsp;&nbsp;
+                                        <input name="HOTELTYPE" type="radio" required /> POST BOOKING &nbsp;&nbsp;&nbsp;
+
+                                        <br><br>
+
+                                        <div class="ty"> &nbsp; NAME <i class="fas fa-user" style="color:blue; font-size:13px;"></i></div>
+                                        &nbsp; &nbsp;YOUR NAME<input typr="text" required placeholder="enter your name">
+                                        <br><br>
+                                        <div class="ty">&nbsp; &nbsp; GRADE A/B PRIOR BOOKING<i class="fas fa-bookmark" style="color:blue; font-size:15px;"></i></div>
+                                        &nbsp; &nbsp;
+                                        <label for="city">PRIOR</label>
+                                        <input list="city" placeholder="select grades" required>
+                                        <datalist id="city" required>
+                    <option value="Rs.15600/P.">GRADE-A (upper)</option>
+                    <option value="Rs.10500/P.">GRADE-A (lower)</option>
+                    <option value="Rs.5600/P.">GRADE-B(upper)</option>
+                    <option value="Rs.2630/P.">GRADE-B (lower)</option>
+                    <option value="Rs.1700/P.">GRADE-C</option>
+                    <option value="Rs.950/P.">GRADE-C</option>
+                   
+                   
+                </datalist>
+                                        <br><br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                        <div class="ty1"> &nbsp; &nbsp;GRADE A/B POST BOOKING<i class="fas fa-bookmark" style="color:blue; font-size:15px;"></i></div>
+                                        &nbsp; &nbsp;
+                                        <label for="city1">POST</label>
+                                        <input list="city1" placeholder="select grades" required>
+                                        <datalist id="city1" required>
+                    <option value="Rs.10600/P.">GRADE-A (upper)</option>
+                    <option value="Rs.5500/P.">GRADE-A (lower)</option>
+                    <option value="Rs.2600/P.">GRADE-B(upper)</option>
+                    <option value="Rs.1630/P.">GRADE-B (lower)</option>
+                    <option value="Rs.980/P.">GRADE-C</option>
+                    <option value="Rs.550/P.">GRADE-C</option>
+                    <br>
+                    
+                   
+                   
+                </datalist>
+
+                                        <br><br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                        <div class="ty2"> &nbsp; &nbsp; enter your ADD-on<i class="fas fa-bookmark" style="color:blue; font-size:15px;"></i></div>
+                                        &nbsp; &nbsp;
+                                        <label for="city2">add</label>
+                                        <input list="city2" placeholder="select grades" required>
+                                        <datalist id="city2" required>
+                    <option value="Rs.3600/P.">hot meal (upper)</option>
+                    <option value="Rs.2500/P.">luxury facility(lower)</option>
+                    <option value="Rs.1600/P.">single sharing(upper)</option>
+                    <option value="Rs.1130/P.">full day tour meal (lower)</option>
+                    <option value="NAN">DONT WANT TO AVAIL</option>
+                    
+                    <br>
+                    
+                   
+                   
+                </datalist>
+                                        <br><br>
+                                        <div class="ty"> &nbsp; &nbsp; CHECK IN<i class="fas fa-credit-card" style="color:blue; font-size:13px;"></i></div>
+                                        &nbsp; &nbsp; Check-in ID<input type="tel" required maxlength="6" placeholder="enter your check -id" />
+                                        <br><br>
+
+
+                                        <div class="ty ">&nbsp; &nbsp; D.O.B<i class="fas fa-calendar " style="color:blue; font-size:13px; "></i></div>
+                                        &nbsp; &nbsp; Your D.O.B <input type="date" required placeholder="enter your dob " />
+
+
+                                        <center> <input onclick="mm() " type="submit" value="PAY" /> &nbsp;&nbsp;
+                                            <input type="reset" /></center>
+                                        <hr/>
+
+                                    </div>
+                                </center>
+                            </form>
+
+
+
+
+
+                        </div>
+
+                        <script>
+                            $("#rollover").click(function() {
+                                $("#dashboard").slideToggle("slow");
+                            })
+                        </script>
+
+
+
+                    </div>
+                </div>
+
+
+
+
+                <div class="main">
+                    <p>
+                        <center>
+                            <h2 style="color:green">AIRLINE OFFERS- for Students, Seniors, ARMY</h2>
+                        </center>
+                        <img src="pay4.jpg">
+                        <center>
+                            <h2 style="color:green">ADD-ON <i class="fas fa-plus"></i></h2>
+                        </center>
+                        <img src="food1.jpeg">
+
+                        <style>
+                            function mb() {
+                                alert("your add ons added")
+                            }
+                        </style>
+                    </p>
+
+
+                </div>
+
+
+        </table>
+    </div>
+</body>
+
+
+</html>

@@ -1,0 +1,104 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.air {
+    color: blue;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 200px;
+    padding: 7px;
+    margin: 8px;
+    border: 2px double blue;
+    border-radius: 25px;
+}
+
+.lk {
+    border-radius: 0 20px 20px 0;
+    font-size: large;
+}
+
+.hy {
+    background-image: linear-gradient( to bottom, rgb(168, 155, 155), rgb(248, 230, 230));
+    border: 2px solid rgb(125, 125, 243);
+    padding-top: 38px;
+    padding-bottom: 38px;
+    padding-left: 78px;
+    padding-right: 78px;
+    margin-top: 140px;
+    box-shadow: -5px -5px 5px 5px rgb(71, 71, 73);
+}
+
+.t1 {
+    box-shadow: 5px 5px 5px 5px rgb(222, 222, 223);
+}
+
+body {
+    background-image: url("airplane1.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.signin,
+.login {
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border: 2px solid red;
+    border-radius: 40px;
+    background-color: rgb(252, 249, 250);
+}
+
+button {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: 2px solid green;
+    border-radius: 40px;
+    background-color: rgb(89, 240, 89);
+    width: 150px;
+    font-size: large;
+    margin-top: 10px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+button:hover {
+    background-color: rgb(29, 240, 29);
+}
+
+.signin:hover {
+    background-color: rgb(145, 236, 153);
+    cursor: pointer;
+}
+
+.sign:hover {
+    background-color: rgb(145, 236, 153);
+    cursor: pointer;
+}
+
+.login:hover {
+    background-color: rgb(245, 146, 146);
+    cursor: none;
+}
+
+.sign {
+    border: 2px solid red;
+    border-radius: 40px;
+    background-color: rgb(252, 249, 250);
+    padding: 5px;
+    width: 100px;
+    margin-left: 880px;
+}
+
+.mn {
+    float: right;
+}
+
+.om {
+    background-color: rgb(80, 205, 255);
+}
+
+.hi {
+    background-color: blue;
+}

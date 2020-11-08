@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIRLINE SERVICES-HOME</title>
+    <link rel="icon" href="airplane5.jpg" />
+    <link rel="stylesheet" href="home.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+
+<body ng-app="">
+    <div class="col-md-6">
+        <table class="t1">
+            <tr class="as">
+                <div class="navbar1">
+                    &nbsp;&nbsp;
+                    <h2 class="d2">AIRLINE SERVICES
+                        <a href="home.html"> <i class="fas fa-users" style="font-size: 29px;cursor:pointer;color:red; font-size:30px"></i></a>
+
+
+                    </h2>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <div class="menu">
+                        <button class="mn">Booking <i class="fas fa-bookmark" style="color:red"></i></button>
+
+                        <div class="dropdown">
+                            <a href="booking_management.html">GRADE-A/B Prior-Booking </a>
+                            <a href="booking_management.html">GRADE-A/B Post-Booking</a>
+                            <a href="booking_management.html">Student Booking</a>
+                            <a href="booking_management.html">Senior Booking </a>
+                            <a href="booking_management.html">ARMY special Booking </a>
+
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <button class="mn">Add-on <i class="fas fa-cart-plus" style="color:red"></i></button>
+                        <div class="dropdown">
+                            <a href="booking_management.html">Hot Meals</a>
+                            <a href="booking_management.html">Priority Check-in</a>
+                            <a href="booking_management.html">Travel Insurance</a>
+                            <a href="booking_management.html">Student Discount</a>
+                            <a href="booking_management.html">Friends and Family</a>
+                            <a href="payment.html">Zero Cancellation</a>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <button class="mn"> About us <i class="fas fa-question" style="color:red"></i></button>
+                        <div class="dropdown">
+                            <a href="about.html">About our FACILITIES</a>
+                            <a href="about.html">About our STAFF</a>
+                            <a href="about.html">About our SERVICES</a>
+
+                        </div>
+                    </div>&nbsp;&nbsp;
+                    <div class="menu">
+                        <button class="mn">Contact us <i class="fas fa-phone-square" style="color:red"></i></button>
+                        <div class="dropdown">
+                            <a href="www.whatsapp.com">Contact by-WHATSAPP <i class="fas fa-users" style="color:green"></i></a>
+                            <a href="www.instagram.com">Contact by-INSTAGRAM <i class="fas fa-users" style="color:green"></i></a>
+                            <a href="https://www.facebook.com/">Contact by-FACEBOOK <i class="fas fa-users" style="color:green"></i></a>
+                        </div>
+                    </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <div class="menu">
+                        <button class="mn"> Audience<i class="fas fa-user" style="color:red"></i></button>
+                        <div class="dropdown">
+                            <a href="compare.html">Our happy customers</a>
+                            <a href="compare.html">Our throughtout customers</a>
+                            <a href="compare.html">our winner audience</a>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <button class="nm"><a href="login_signup.html" style="text-decoration: none; color:green; "><b>LOGIN/SIGNUP<i class="fas fa-user-plus"></i></b></a></button>
+                        <div class="dropdown">
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </tr>
+            <tr class="zx">
+                <div class="navbar2">
+                    <button class="lj"><a href="compare.html">Flights <i class="fas fa-plane" style="color:aliceblue"></i></a></button>
+                    <button class="lj"><a href="compare.html">Hotels <i class="fas fa-hotel" style="color:goldenrod"></i></a></button>
+                    <button class="lj"><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019">COVID-19 <i class="fas fa-exclamation-triangle" style="color:red"></i></a></button>
+
+
+                </div>
+            </tr>
+            <tr class="qw">
+                <center>
+                    <div class="op">
+                        <img src="airplane1.jpg" name="slide" width="500px" height="500px" />
+                    </div>
+                </center>
+
+                <script>
+                    image1 = "airplane1.jpg";
+                    image2 = "airplane2.jpg";
+                    image3 = "airplane4.jpg";
+                    image4 = "airplane5.jpg";
+                    image5 = "airplane6.jpg";
+
+                    var i = 1;
+
+                    function slideshow() {
+                        document.images.slide.src = eval("image" + i);
+                        if (i < 3) i++;
+                        else i = 1;
+                        setTimeout("slideshow()", 3000);
+                    }
+                    slideshow();
+                </script>
+                <div id="rt">
+                    <marquee><i class="fas fa-users" style="font-size: 29px;cursor:not-allowed;color:green; font-size:25px">   </i> Air India, formerly Air-India, airline founded in 1932 (as Tata Airlines) that grew into an international airline owned by the Indian
+                        government; it serves southern and east Asia, the Middle East, Europe, Africa, the United States, and Canada. Headquarters are in Bombay (Mumbai).</marquee>
+                </div>
+
+                <div class="row">
+
+                    <div class="side">
+                        <div id="rollover">AIRLINE MANAGEMENT <i class="fas fa-user" style="color:red;font-size: 22px;"></i></div>
+                        <div id="dashboard">
+                            <p style="margin:0">Airport Management is responsible for ensuring its smooth functioning with the goal of ensuring a safe journey to all passengers availing it. </p>
+                            <button class="mn"> About us <i class="fas fa-question" style="color:red"></i></button>
+
+                        </div>
+
+                        <script>
+                            $("#rollover").click(function() {
+                                $("#dashboard").slideToggle("slow");
+                            })
+                        </script>
+                        <br>
+                        <div class="cv">
+                            <center>
+                                <h2 style="color:red">AIRLINE TOOLS <i class="fas fa-cogs" style="color:grey"></i></h2>
+                            </center>
+                            <div class="menu">
+                                <button class="btn1"> Our Settings  <i class="fas fa-cogs" style="color:rgb(201, 201, 247)"></i></button>
+                                <div class="dropdown">
+                                    <a href="payment.html">Payment tools</a>
+                                    <a href="booking_management.html">Reservation tools</a>
+                                    <a href="booking_management.html">Add-on change tools</a>
+                                    <a href="booking_management.html">Booking tools</a>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <br>
+                        <div class="as">
+                            <center>
+                                <h2 style="color:red">YOUR FEEDBACK <i class="fas fa-comments" style="color:green"></i></h2>
+                            </center>
+
+                            <script>
+                                function msg() {
+
+                                    alert("feedback saved successfully");
+
+                                }
+
+                                function msg2() {
+
+                                    alert("Data Submission progress.....(click Ok for submit details)-NOTE: DATA WILL BE SUBMITTED AFTER FILLING ALL CREDENTIALS                                                                                                                               YoUr siGnUp DeTaiLs  WiLl bE Taken fOr FuRtHer PrOceSs");
+
+                                }
+
+                                function msg1() {
+
+                                    alert("ERROR-(NOT FOUND) Multicity temporarily  not available due to covid crises-<sorry for inconvinience> ");
+
+                                }
+                            </script>
+                            <form>
+                                <center><input name="name" required type="text" ng-model="name" ng-class="{green,white}" ng-click="green=true;white=false" ng-dblclick="green=false; white=true" style="font-size: 20px; padding:7px;" placeholder="Enter your feedback..."></center>
+                                <div>
+                                    your feedback<i class="fas fa-comments"></i>
+                                    <div id="po">{{name}}</div> &nbsp;
+
+                                    <button onclick="msg()" style="padding:6px; background-image: linear-gradient( to bottom, rgb(168, 168, 235), white);">submit </button>
+                                </div>
+                            </form>
+                        </div>
+                        <br>
+
+                        <div class="cv">
+                            <center>
+                                <h2 style="color:red">AIRLINE WORLD <i class="fas fa-compass" style="color:grey"></i></h2>
+                            </center>
+                            <div class="menu">
+                                <button class="btn2"> WEairliners </button>
+                                <div class="dropdown" id="ml">
+                                    <a href="" style="text-align: center;"> Air India Limited, a government-owned enterprise, and operates a fleet of Airbus and Boeing aircraft serving 102 domestic and international destinations. The airline has its hub at Indira Gandhi International Airport, New Delhi, alongside several focus cities across India. Air India is the largest international carrier out of India with an 18.6% market share.</a>
+
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <br>
+                        <div class="cv">
+                            <center>
+                                <h2 style="color:red">AIRLINE MARKET <i class="fas fa-inr" style="color:green"></i></h2>
+                            </center>
+                            <div class="menu">
+                                <button class="btn2"> WEairliners </button>
+                                <div class="dropdown" id="ml">
+                                    <a href="" style="text-align: center;"> Air India is the largest international carrier out of India with an 18.6% market share.
+                                    ...
+                                    Air India.
+                                    IATA ICAO Callsign AI AIC AIR INDIA
+                                    Total assets	₹52,352.18 crore (US$7.3 billion) (2019)
+                                    Total equity	₹-29,466.36 crore (US$−4.1 billion) (2019)
+                                    Employees	9,993 (March 2019)
+                                    Website	www.airindia.com</a>
+
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="main">
+                        <p>
+
+                            <script type="text/javascript">
+                                function display_c() {
+                                    var refresh = 1000; // Refresh rate in milli seconds
+                                    mytime = setTimeout('display_ct()', refresh)
+                                }
+
+                                function display_ct() {
+                                    var x = new Date()
+                                    document.getElementById('ct').innerHTML = x;
+                                    display_c();
+                                    document.getElementById("ct").style.fontSize = "20px";
+                                    document.getElementById("ct").style.color = "blue";
+                                    document.getElementById("ct").style.fontStyle = "italic";
+                                }
+                            </script>
+                            <div class="om">
+                                <a onmouseover=document.bgColor='palegreen' onmouseout=document.bgColor='palegreen'><i class="fas fa-square" style="color:palegreen"></i></a>&nbsp; &nbsp;
+                                <a onmouseover=document.bgColor='black' onmouseout=document.bgColor=':yellow'><i class="fas fa-square" style="color:black"></i></a>&nbsp; &nbsp;
+                                <a onmouseover=document.bgColor='blueviolet' onmouseout=document.bgColor='blueviolet'><i class="fas fa-square" style="color: blueviolet;"></i></a>&nbsp; &nbsp;
+                                <a onmouseover=document.bgColor='crimson' onmouseout=document.bgColor='crimson'><i class="fas fa-square" style="color: crimson;"></i></a>&nbsp; &nbsp;
+                                <a onmouseover=document.bgColor='cyan' onmouseout=document.bgColor='cyan'><i class="fas fa-square" style="color: cyan;"></i></a>&nbsp; &nbsp;
+                                <a onmouseover=document.bgColor='white' onmouseout=document.bgColor='white'><i class="fas fa-window-close" style="color:white"></i></a>&nbsp; &nbsp;
+                            </div>
+                            </head>
+
+                            <body onload=display_ct();>
+                                <center>
+                                    <div id="ct1">
+                                        <i class="fas fa-clock-o" style="
+                            font-size: 25px;
+                            color: lightblue;
+                            text-shadow: 2px 2px 4px #000000;
+                          "></i> <span id='ct'></span></div>
+                                </center>
+                                <hr/>
+
+                            </body>
+
+                            <div>
+                                <h2 style="color: red;">
+                                    <center> Booking Reservation
+                                        <i class="fas fa-check-square" style="color: green;"></i></center>
+                                </h2>
+
+                            </div>
+
+
+
+
+                            <form name="my1" onsubmit="return(jsvalidation1())">
+
+
+                                <div id="ru">
+                                    <div class="ty">Booking Type <i class="fas fa-bookmark" style="color:green; font-size:14px;"></i></div>
+
+
+                                    &nbsp; <input name="HOTELTYPE" type="radio" required/> One Way &nbsp;&nbsp;&nbsp;
+                                    <input name="HOTELTYPE" type="radio" required /> Round Trip &nbsp;&nbsp;&nbsp;
+                                    <input name="HOTELTYPE" type="radio" onclick="msg1()" required /> Multicity
+
+                                    <br><br>
+                                    <div class="ty">Destination <i class="fas fa-globe" style="color:green; font-size:15px;"></i></div>
+                                    &nbsp; &nbsp;
+
+                                    <label for="cities">FROM<sup style="color:red">*</sup>(Departure)</label>
+                                    <input list="cities" placeholder="your departure location" required>
+                                    <datalist id="cities" required>
+                                    <option>Himachal</option>
+                                    
+                                    <option >Punjab</option>
+                                    <option >Uttar Pradesh</option>
+                                    <option >Sikkim</option>
+                                    <option >Manipal</option>
+                                    <option >Haryana</option>
+                                    <option >Madhya Pradesh</option>
+                                    <option >kerala</option>
+                                    <option >Andra Pradesh</option>
+                                    <option >Andaman & Nikobar</option>
+                                </datalist> &nbsp;&nbsp;&nbsp;
+                                    <label for="city">TO<sup style="color:red">*</sup>(Arrival)</label>
+                                    <input list="city" placeholder="your arrival location" required>
+                                    <datalist id="city" required>
+                                    <option value="DELHI">INDIAN LOCATION</option>
+                                    <option value="GOA">INDIAN LOCATION</option>
+                                    <option value="MUMBAI">INDIAN LOCATION</option>
+                                    <option value="LONDON">NON-INDIAN LOCATION</option>
+                                    <option value="PARIS">NON-INDIAN LOCATION</option>
+                                    <option value="DENMARK">NON-INDIAN LOCATION</option>
+                                    <option value="ICELAND">NON-INDIAN LOCATION</option>
+                                    <option value="AMERICA">NON-INDIAN LOCATION</option>
+                                    <option value="EUROPE">NON-INDIAN LOCATION</option>
+                                    <option value="LOS-ANGELES">NON-INDIAN LOCATION</option>
+                                </datalist>
+                                    <br><br>
+                                    <div class="ty">Date <i class="fas fa-calendar" style="color:green; font-size:13px;"></i> & Time <i class="fas fa-clock-o" style="color:green; font-size:14px;"></i></div>
+                                    &nbsp; &nbsp; Departure Date <input name="ad" required type="date" placeholder="choose the dep. time" /> &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; Arrival Date <input name="ad" required
+                                        type="date" placeholder="choose the dep. time" />
+                                    <br><br> &nbsp; &nbsp; Departure Time <input required name="ad" type="time" placeholder="choose the dep. time" /> &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+                                    &nbsp;&nbsp;&nbsp; &nbsp; Arrival Time
+                                    <input name="ad" required type="time" placeholder="choose the dep. time">
+                                    <br><br>
+                                    <div class="ty">Passengers <i class="fas fa-address-card" required style="color:green; font-size:14px;"></i></div>
+                                    No. of Adult<input name="st" required type="number" placeholder="choose the no. of adults" /> No. of Infants<input name="st" required type="number" placeholder="choose the no. of infants" /> No. of Childst<input name="st"
+                                        type="number" placeholder="choose the no. of childs" />
+
+                                    <br><br>
+                                    <div class="ty">Special Assistance(if) <i class="fas fa-street-view" style="color:green; font-size:17px;"></i></div>
+                                    &nbsp; <input name="HOTELTYPE" type="checkbox" />Armed Forces&nbsp;&nbsp;&nbsp;
+                                    <input name="HOTELTYPE" type="checkbox" />Senior Citizen &nbsp;&nbsp;&nbsp;
+                                    <input name="HOTELTYPE" type="checkbox" />Infants &nbsp;&nbsp;&nbsp;
+                                    <input name="HOTELTYPE" type="checkbox" />University students &nbsp;&nbsp;&nbsp;
+                                    <input name="HOTELTYPE" type="checkbox" />Unaccompanied Minor
+
+                                    <br><br>
+
+                                    <center> <input onclick="msg2()" type="submit" /> &nbsp;&nbsp;
+                                        <input type="reset" /></center>
+                                    <hr/>
+                                    <button class="same"> <a href="payment.html">PAYwindow</a></button>
+                                </div>
+                            </form>
+                        </p>
+                    </div>
+                    <div class="jh">
+                        <div class="row">
+
+                            <div class="side">
+
+                                <a href="login_signup.html"><i class="fab fa-whatsapp" style="font-size: 30px; color:rgb(6, 226, 35)"></i></a>
+                                <br><br><br>
+
+                                <a href="about.html"><i class="fab fa-instagram" style="font-size: 30px;color:rgb(247, 146, 163)"></i></a><br><br><br>
+                                <a href="about.html"><i class="fab fa-facebook-square" style="font-size: 30px;color:blue"></i></a><br><br><br>
+                                <a href="about.html"><i class="fab fa-twitter-square" style="font-size: 30px;color:rgb(13, 145, 197)"></i></a><br><br><br>
+                                <a href="about.html"><i class="fab fa-youtube-square" style="font-size: 30px;color:red"></i></a><br><br><br>
+                                <a href="about.html"><i class="fab fa-google" style="font-size: 30px;color:rgb(241, 77, 77)"></i></a><br><br><br>
+                                <a href="about.html"><i class="fab fa-pinterest-square" style="font-size: 30px;color:rgba(255, 0, 0, 0.76)"></i></a><br><br><br>
+                                <a href="about.html"><i class="fab fa-snapchat" style="font-size: 30px;color:#ffff00"></i></a><br><br><br>
+                                <a href="about.html"><i class="fab fa-spotify" style="font-size: 30px;color:#00ff40"></i></a><br><br><br>
+                                <a href="about.html"><i class="fab fa-telegram" style="font-size: 30px;color:#003cff"></i></a><br><br><br>
+                                <a href="about.html"><i class="fab fa-wikipedia-w" style="font-size: 30px;color:white"></i></a><br><br><br>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="jh1">
+                        <div class="leftnav">
+                            <a href="" class="mis">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-envelope" style="color: red; font-size: 25px;"></i></a>
+
+                        </div>
+                    </div>
+            </tr>
+
+
+        </table c>
+        <div class="gf">
+            <table class="t1">
+                <tr class="as">
+                    <div class="navbar3">
+                        &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <div class="menu" id="tr">
+                            <button class="bn"><a href="booking_management.html"><i class="fas fa-users" style="color:red;font-size: 50px;"> </i><br><div class="nb">GROUP TRAVEL</div></a></button>
+
+                            <div class="dropdown">
+
+
+                            </div>
+                        </div>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <div class="menu" id="tr">
+                            <button class="bn"><a href="booking_management.html"><i class="fas fa-paper-plane" style="color:red;font-size: 50px;"></i> <br><div class="nb">MANAGE BOOKING</div></a></button>
+                            <div class="dropdown">
+
+                            </div>
+                        </div>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <div class="menu" id="tr">
+                            <button class="bn"><a href="payment.html"><i class="fas fa-inr" style="color:red;font-size: 50px;"></i> <br><div class="nb">GST INVOICE</div></a></button>
+                            <div class="dropdown">
+
+
+                            </div>
+                        </div>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <div class="menu" id="tr">
+                            <button class="bn"><a href=https://www.who.int/emergencies/diseases/novel-coronavirus-2019"><i class="fas fa-exclamation-triangle" style="color:red;font-size: 50px;"></i> <br><div class="nb">COVID-19 TOOL</div></a></button>
+
+                        </div>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <div class="menu" id="tr">
+                            <button class="bn"><a href="compare.html"><i class="fas fa-bar-chart" style="color:red;font-size: 50px;"></i> <br><div class="nb"> AIR AUDIENCE
+                    </div></a></button>
+                            <div class="dropdown">
+
+                            </div>
+                        </div>
+                    </div>
+                </tr>
+            </table>
+            <center>
+                <div class="op">
+                    <img src="sky1.jpg" name="slide" width="500px" height="300px" class="in" />
+                </div>
+            </center>
+        </div>
+        <div class="om2">
+            <p style="text-align: center; color:white">The airline was founded by J. R. D. Tata as Tata Airlines in 1932; Tata himself flew its first single-engine de Havilland Puss Moth, carrying air mail from Karachi's Drigh Road Aerodrome to Bombay's Juhu aerodrome and later continuing to Madras
+                (currently Chennai). After World War II, it became a public limited company and was renamed as Air India. On 21 February 1960, it took delivery of its first Boeing 707 named Gauri Shankar and became the first Asian airline to induct a
+                jet aircraft in its fleet.[10] In 2000–01, attempts were made to privatise Air India and from 2006 onwards, it suffered losses after its merger with Indian Airlines.</p>
+            <div class="menu" id="tr">
+                <button class="bn2"><a href="booking_management.html"><i class="fas fa-street-view" style="color:red;font-size: 20px;"></i> <br><div class="nb">AIRLINE SERVICES</div></a></button> <img src="airplane5.jpg" class="hi">
+                <div class="dropdown">
+
+                </div>
+            </div>
+
+            <div class="center" style="text-align: center;">
+                <a href="about.html"><i class="fab fa-whatsapp" style="font-size: 30px; color:rgb(4, 168, 26)"></i></a>&nbsp;&nbsp;&nbsp;
+
+
+                <a href="about.html"><i class="fab fa-instagram" style="font-size: 25px;color:rgb(248, 60, 91)"></i></a> &nbsp;&nbsp;&nbsp;
+                <a href="about.html"><i class="fab fa-facebook-square" style="font-size: 25px;color:blue"></i></a>&nbsp;&nbsp;&nbsp;
+                <a href="about.html"><i class="fab fa-twitter-square" style="font-size: 25px;color:rgb(5, 93, 128)"></i></a>&nbsp;&nbsp;&nbsp;
+                <a href="about.html"><i class="fab fa-youtube-square" style="font-size: 25px;color:red"></i></a>&nbsp;&nbsp;&nbsp;
+                <a href="about.html"><i class="fab fa-google" style="font-size: 25px;color:rgb(197, 9, 9)"></i></a><br><br><br>
+            </div>
+        </div>
+        </div>
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="HAPPY_AIRLINES.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <h4 style="color:blue ;background: mediumturquoise;">AIRLINE SERVICES <a href="home.html"><i class="fas fa-home" style="color:red"></i></a></h4>
+    <button id="om" style="color:green"><a href="login_signup.html">login/signup</a></button>
+    <center>
+        <div class="op">
+            <img src="airplane1.jpg" name="slide" width="500px" height="500px" />
+        </div>
+    </center>
+
+    <script>
+        image1 = "h1.jpg";
+        image2 = "airplane6.jpg";
+        image3 = "h2.jpg";
+        image4 = "airplane2.jpg";
+        image5 = "h3.jpg";
+        image6 = "airplane5.jpg";
+        image7 = "h4.jpg";
+        image8 = "airplane4.jpg";
+        image9 = "h1.jpg";
+        image10 = "airplane6.jpg";
+        var i = 1;
+
+        function slideshow() {
+            document.images.slide.src = eval("image" + i);
+            if (i < 10) i++;
+            else i = 1;
+            setTimeout("slideshow()", 1000);
+        }
+        slideshow();
+    </script>
+
+    <div class="container-fluid" id="uy">
+        <center>
+            <h4 style="color:white; border: 1px solid brown; border-radius: 100px;background: rgb(47, 47, 240);">OUR AIR AUDIENCE <i class="fas fa-users" style="color: green;"></i></h4>
+        </center>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="demo-content">OUR SATISFIED USERS</div>
+            </div>
+            <div class="col-lg-4">
+                <div class="demo-content1">OUR HAPPY USERS-2018</div>
+            </div>
+            <div class="col-lg-4">
+                <div class="demo-content2">NOT-REGULAR USERS</div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="demo-content">OUR SATISFIED USERS</div>
+            </div>
+            <div class="col-md-8">
+                <div class="demo-content1">OUR HAPPY USERS-2019</div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="demo-content">OUR SATISFIED USERS</div>
+            </div>
+            <div class="col-md-9">
+                <div class="demo-content1">OUR HAPPY USERS-2020</div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

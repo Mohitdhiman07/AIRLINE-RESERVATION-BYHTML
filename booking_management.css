@@ -1,0 +1,459 @@
+body {
+    margin: 0;
+}
+
+.navbar1 {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient( to bottom, rgb(159, 247, 159), white);
+    margin: 0;
+}
+
+.navbar3 {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient( to bottom, rgb(168, 168, 235), white);
+}
+
+.mn {
+    padding-bottom: 5px;
+    padding-top: 14px;
+    background-color: rgb(206, 241, 199);
+    font-size: 21px;
+    margin-top: 10px;
+    text-decoration: none;
+    border: none;
+    color: green;
+    font-family: serif;
+}
+
+.mn:hover {
+    background-color: whitesmoke;
+    color: red;
+    width: 150px;
+}
+
+.dropdown {
+    display: none;
+    background-color: white;
+    width: 150px;
+    box-shadow: 0 0 20px 3px rgb(236, 123, 123);
+}
+
+.dropdown a {
+    color: red;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu {
+    width: 150px;
+}
+
+a:hover {
+    background-color: green;
+    color: whitesmoke;
+}
+
+.menu:hover .dropdown {
+    display: block;
+}
+
+.navbar1 {
+    height: 55px;
+}
+
+.navbar3 {
+    height: 55px;
+}
+
+.navbar2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(255, 0, 0, 0.137));
+    width: 150px;
+    border-top: 2px solid rgba(255, 0, 0, 0.137);
+}
+
+.navbar2 {
+    height: 45.2px;
+}
+
+.lj {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: 1px solid red;
+    border-radius: 40px;
+    background-image: linear-gradient( to bottom, rgb(235, 146, 146), white);
+    width: 150px;
+    font-size: large;
+    margin-top: 10px;
+}
+
+.lj a {
+    text-decoration: none;
+}
+
+.lj:hover {
+    background-color: green;
+}
+
+.lj a:hover {
+    background-image: linear-gradient( to bottom, rgb(238, 34, 27), rgba(248, 245, 245, 0.137));
+}
+
+.zx {
+    padding-bottom: 5px;
+    padding-top: 14px;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.main {
+    background-color: white;
+}
+
+img {
+    width: 100%;
+    height: 350px;
+    border: 2px solid red;
+}
+
+.navbar1 {
+    position: relative;
+}
+
+.navbar3 {
+    position: relative;
+}
+
+.navbar2 {
+    position: absolute;
+}
+
+.fg {
+    background-color: rgb(245, 59, 59);
+    border-radius: 100px;
+}
+
+.nm {
+    background-color: white;
+    padding-bottom: 5px;
+    padding-top: 14px;
+    font-size: 16.02px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 100px;
+    border: none;
+}
+
+.row {
+    display: flex;
+}
+
+.side {
+    flex: 70%;
+    background-size: cover;
+    background-image: linear-gradient( to bottom, rgb(241, 198, 198), white);
+    padding: 18px;
+    color: white;
+}
+
+.main {
+    flex: 30%;
+    background-image: url('airplae5.jpg');
+    background-size: cover;
+    padding: 20px;
+}
+
+marquee {
+    color: red;
+    background-image: linear-gradient( to bottom, rgb(173, 238, 222), white);
+    font-size: 22px;
+    border-top: 2px solid green
+}
+
+#dashboard,
+#rollover {
+    background-image: linear-gradient( to bottom, rgb(164, 248, 164), white);
+    padding: 9px;
+    text-align: center;
+    border: 1px solid green;
+    color: blue;
+}
+
+#dashboard {
+    padding: 15px;
+    font-size: large;
+    display: none;
+    border: 2px solid rgb(110, 209, 212);
+}
+
+.green {
+    background-color: rgb(28, 241, 28);
+}
+
+.white {
+    background-color: white;
+}
+
+#po {
+    color: black
+}
+
+.as {
+    border: 1px solid green;
+    padding: 8px;
+}
+
+.cv {
+    border: 1px solid green;
+    padding: 8px;
+}
+
+.btn {
+    padding-bottom: 5px;
+    padding-top: 10px;
+    background-image: linear-gradient( to bottom, rgb(235, 128, 128), white);
+    font-size: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    border: none;
+    color: blue;
+    border: 1px solid green;
+}
+
+.btn1 {
+    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-left: 21px;
+    background-image: linear-gradient( to bottom, rgb(233, 126, 126), white);
+    font-size: 17px;
+    margin-top: 10px;
+    text-decoration: none;
+    border: none;
+    color: blue;
+    border: 1px solid green;
+}
+
+#ct {
+    border: 1px solid green;
+    border-radius: 100px;
+    padding: 5px;
+    margin-top: 200px;
+    background-image: linear-gradient( to bottom, rgb(235, 146, 146), white);
+}
+
+.jh1 {
+    position: fixed;
+}
+
+.leftnav a {
+    position: absolute;
+    left: -102px;
+    padding: 10px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 0 10px 10px 0;
+    color: white;
+    background-image: linear-gradient( to bottom, rgb(235, 146, 146), white);
+    transition: 0.5s;
+    border: 1px solid green;
+}
+
+.mis {
+    top: 10px;
+}
+
+.leftnav a:hover {
+    left: -50px;
+}
+
+#ru {
+    color: rgb(243, 14, 14);
+    font-size: 18px;
+}
+
+#ru {
+    border: 1px solid green;
+    background-image: linear-gradient( to bottom, white);
+}
+
+.ty {
+    color: red;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.btn2 {
+    padding: 3px;
+    padding-right: 35px;
+    padding-left: 12px;
+    background-image: linear-gradient( to bottom, white, white);
+    font-size: 17px;
+    margin-top: 10px;
+    text-decoration: none;
+    border: none;
+    color: black;
+    border: 1px solid black;
+}
+
+#lv {
+    padding-left: 6px;
+}
+
+#ro {
+    width: 212px;
+}
+
+.sf {
+    display: none;
+}
+
+.sf:hover {
+    display: block;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-image: linear-gradient( to bottom, rgb(235, 146, 146), white);
+    color: white;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 40px;
+    cursor: pointer;
+    border: 1px solid green;
+    width: 140px;
+}
+
+.same {
+    background-image: linear-gradient( to bottom, green, white);
+    color: white;
+    padding-right: 450px;
+    padding-left: 450px;
+    padding-top: 9px;
+    margin: 8px;
+    cursor: pointer;
+    border: 1px solid green;
+    width: 140px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.om {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bn {
+    border: none;
+    padding: 50px;
+    background-image: linear-gradient( to bottom, rgb(235, 146, 146), white);
+    border: 1px solid green;
+    border-radius: 5%;
+}
+
+.bn2 {
+    border: none;
+    padding: 20px;
+    background-image: linear-gradient( to bottom, white);
+    border: 1px solid grey;
+    border-radius: 50%;
+}
+
+.bn2:hover {
+    border: none;
+    padding: 40px;
+    background-image: linear-gradient( to bottom, rgb(235, 146, 146), white);
+    border: 1px solid blue;
+    border-radius: 50%;
+}
+
+#bv {
+    height: 10px;
+    width: 10px;
+    ;
+}
+
+.bn:hover {
+    background-image: linear-gradient( to bottom, rgb(236, 95, 95), white);
+    -image: linear-gradient( to bottom, rgb(39, 39, 243), white);
+    border: 1px solid blue;
+    padding: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 10%;
+}
+
+.bn {
+    font size: 50px;
+}
+
+.gf {
+    border-bottom: 0.5px solid green;
+    background-image: linear-gradient( to bottom, green, white);
+}
+
+.in {
+    height: 200px;
+}
+
+.btn2 {
+    background-image: linear-gradient( to bottom, rgb(235, 146, 146), white);
+    color: blue;
+    padding-right: 153px;
+    padding-left: 90px;
+    padding-top: 9px;
+    margin: 8px;
+    cursor: pointer;
+    border: 1px solid green;
+    width: 140px;
+    font-size: 15px;
+    text-align: left;
+}
+
+#ml {
+    width: 257px;
+}
+
+.om2 {
+    background-color: grey;
+    height: 350px;
+    width: 1350px;
+    border: 2px solid grey;
+}
+
+.main {
+    padding: 0px;
+}
+
+.hi {
+    height: 200px;
+    width: 1342px;
+    position: static;
+}
+
+.bn2 {
+    position: absolute;
+}
+
+.navbar1 {
+    position: fixed;
+    border-bottom: 1px solid blue;
+    border-top: 1px solid blue;
+}
+
+.navbar3 {
+    position: absolute;
+    border-bottom: 1px solid blue;
+    border-top: 1px solid blue;
+}
+
+.navbar2 {
+    margin-top: 55px;
+}
